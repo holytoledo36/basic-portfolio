@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>David Morrill Portfolio</title>
+  <title>David Morrill Contact</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <link href="https://fonts.googleapis.com/css?family=Cormorant+SC|Josefin+Sans|Lora" rel="stylesheet">
@@ -35,22 +35,34 @@
 
   <div class="about">
 
-    <h2>About David</h2><br>
+    <h2>Contact</h2><br>
+    
+    <form action="/action_page.php">
 
-    <img src="assets/images/davidprofile.jpg" alt="David Morrill pic">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="username" placeholder="Your Name">
 
-    <p title="About David Morrill"><p>As a veteran business journalist, David Morrill has spent much of his professional career seeking the common threads that make businesses successful. His media stints include the Bay Area News Group which includes the Oakland Tribune, Contra Costa Times, San Jose Mercury, Chicago Tribune, and The Denver Post. Over the course of his career he has written more than 5,000 articles with the majority focused on small business issues.</p>
+      <label for="email">Email</label>
+      <input type="text" id="email" name="useremail" placeholder="Email Address">
+
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="" style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+      
+    </form>
+
   </div>
     
   </div>
 
-  <section class="networks">
+   <section class="networks">
       
     <h2>Connect With David</h2>
 
     <div class="social_links">
 
-      <div id="git">
+        <div id="git">
         <a href="https://github.com/holytoledo36"><img src="assets/images/if_Github_1298743.png" class="social" alt="GitHub" width="60px" height="60px"/></a>
 
       </div>
@@ -63,10 +75,14 @@
         <a href="https://stackoverflow.com/users/story/9137570"><img src="assets/images/if_stackoverflow_273179.png" class="social" alt="Stack Overflow" width="54px" height="54px"></a>
       </div>
 
+
     </div>
+
+  <br>
 
   </section>
 
+  
   <div class="bottom">
 
     <div class="footer">&copy;Copyright 2018 David Morrill</div>
@@ -75,6 +91,4 @@
   </div>
 
 </body>
-
 </html>
-
